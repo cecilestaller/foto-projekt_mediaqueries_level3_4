@@ -1,0 +1,16 @@
+@media screen and (max-width: 375px) {
+    
+    .main_wrapper article {
+        max-width: 100%;
+        padding-bottom: 3rem;
+    }
+
+    .img_wrapper figure figcaption {
+        display: block;
+    }
+
+    form {
+        max-width: 345px;
+    }
+
+}

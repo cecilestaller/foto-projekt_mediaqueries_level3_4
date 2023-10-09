@@ -1,0 +1,40 @@
+
+
+@media screen and (max-width: 800px) {
+    
+    .img_wrapper {
+        display: block;
+    }
+
+    .img_wrapper figure {
+        margin-block: 3rem;
+    }
+
+    .img_wrapper figure img {
+        width: 100%;
+    }
+
+    .img_wrapper figure:nth-of-type(2) {
+        margin-top: 0px;
+    }
+
+    .img_wrapper figure:nth-of-type(3) {
+        margin-top: 0px;
+    }
+
+    .img_wrapper figure:nth-of-type(8) {
+        margin-top: 0px;
+    }
+
+    .img_wrapper figure:nth-of-type(9) {
+        margin-top: 0px;
+    }
+
+    .article_wrapper {
+        display: block;
+    }
+
+    .article_wrapper article {
+        margin-block: 3vh;
+    }
+}
