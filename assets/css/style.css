@@ -85,29 +85,64 @@ h1 {
 
 /* Grid */
 
-.img_wrapper figure figcaption {
+/* .img_wrapper figure figcaption {
     font-family: "roboto_reg";
     font-size: 1.2rem;
     line-height: 1.5rem;
     padding-top: 0.7rem;
     display: none;
-}
+} */
 
-.img_wrapper {
+.grid_wrapper {
+    /* margin: 0 5%; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 8px;
-    grid-template-areas: 
-        "img1 img4 img7"
-        "img2 img5 img8"
-        "img3 img6 img9";
+    gap: 10px;
 }
 
-.img_wrapper figure:nth-of-type(1) {
+.grid_wrapper div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.grid_wrapper div div img {
+    width: 100%;
+}
+
+section div .img_container {
+    position: relative;
+}
+
+section div .img_container .overlay_text {
+    position: absolute;
+    background-color: rgba (0, 0, 0, 0.5);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    opacity: 0;
+    transition: all 0.3s linear;
+    color: #fff;
+}
+
+section .img_container:hover .overlay_text {
+    opacity: 1;
+}
+
+.grid_wrapper div .img_container .text_mobile {
+    display: none;
+}
+
+/* .img_wrapper figure:nth-of-type(1) {
     grid-area: img1;
-}
+} */
 
-.img_wrapper figure:nth-of-type(2) {
+/* .img_wrapper figure:nth-of-type(2) {
     grid-area: img2;
     margin-top: -120px;
 }
@@ -141,11 +176,11 @@ h1 {
 .img_wrapper figure:nth-of-type(9) {
     grid-area: img9;
     margin-top: -340px;
-}
+} */
 
 /* Hover-Effect */
 
-.image {
+/* .image {
     position: relative;
 }
 
@@ -176,7 +211,7 @@ h1 {
 
 .image__description {
     font-size: 1.5rem;
-}
+} */
 
 
 /* ====== FOOTER ====== */

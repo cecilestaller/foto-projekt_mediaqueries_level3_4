@@ -1,3 +1,5 @@
+
+
 @media screen and (max-width: 375px) {
     
     .main_wrapper article {
@@ -5,8 +7,13 @@
         padding-bottom: 3rem;
     }
 
-    .img_wrapper figure figcaption {
+    .grid_wrapper div .img_container .overlay_text {
+        display: none;
+    }
+
+    .grid_wrapper div .img_container .text_mobile {
         display: block;
+        font-family: "roboto_reg";
     }
 
     form {
